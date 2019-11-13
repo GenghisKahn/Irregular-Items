@@ -1,0 +1,13 @@
+{
+    "item.irregularitems.firstitem": "First Item",
+    "item.irregularitems.ezbuilderitem": "EZ Builder",
+    "item.irregularitems.ezbuilderupgradeitem": "EZ Builder 5000",
+    "item.irregularitems.schematicitem": "EZ Builder Schematic",
+
+    "block.irregularitems.firstblock": "First Block",
+    "block.irregularitems.schematicwriterblock": "EZ Schematic Writer",
+    "block.irregularitems.combustiongenerator": "Combustion Generator",
+
+    "_comment": "Creative Tabs",
+    "itemGroup.irregularitems": "Irregular Items"
+}

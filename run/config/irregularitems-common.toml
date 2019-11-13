@@ -1,0 +1,55 @@
+
+#Power settings
+[power]
+
+	#Quantum Capacitor settings
+	[power.quantumcapacirot]
+		#Maximum power for the Quantum Capacitor
+		#Range: > 0
+		maxPower = 100000
+		#Power to try to send per tick
+		#Range: > 0
+		send = 100
+
+	#Combustion Generator
+	[power.combustiongenerator]
+		#Tick multiplier (Item Ticks = Furnace Burn time * multiplier)
+		#Range: 0 ~ 10
+		ticks = 1
+		#Maximum power for the combustion generator
+		#Range: > 0
+		maxPower = 100000
+		#Power generation per tick
+		#Range: > 0
+		generate = 25
+		#Power generation to send per tick
+		#Range: > 0
+		send = 100
+
+	#FirstBlock settings
+	[power.firstblock]
+		#Ticks per diamond
+		#Range: > 0
+		ticks = 20
+		#Maximum power for the FirstBlock generator
+		#Range: > 0
+		maxPower = 100000
+		#Power generation per diamond
+		#Range: > 0
+		generate = 1000
+		#Power generation to send per tick
+		#Range: > 0
+		send = 100
+
+	#Basic Quantum Generator
+	[power.quantumgenerator]
+		#Maximum power for the combustion generator
+		#Range: > 0
+		maxPower = 100000
+		#Power generation per tick
+		#Range: > 0
+		generate = 25
+		#Power generation to send per tick
+		#Range: > 0
+		send = 100
+

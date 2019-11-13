@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "lpl",
+    "lll"
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "l": {
+      "tag": "forge:dyes/blue"
+    }
+  },
+  "result": {
+    "item": "irregularitems:schematicitem"
+  }
+}

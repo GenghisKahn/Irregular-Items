@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IDI",
+    "bRr",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "r": {
+      "tag": "forge:dyes/red"
+    },
+    "b": {
+      "tag": "forge:dyes/blue"
+    }
+  },
+  "result": {
+    "item": "irregularitems:ezbuilderitem"
+  }
+}

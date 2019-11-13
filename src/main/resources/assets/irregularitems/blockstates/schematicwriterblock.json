@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,has_book=false": { "model": "irregularitems:block/schematicwriterblock" },
+    "facing=south,has_book=false": { "model": "irregularitems:block/schematicwriterblock", "y": 180 },
+    "facing=west,has_book=false": { "model": "irregularitems:block/schematicwriterblock", "y": 270 },
+    "facing=east,has_book=false": { "model": "irregularitems:block/schematicwriterblock", "y": 90 },
+    "facing=north,has_book=true": { "model": "irregularitems:block/schematicwriterblock_schematic" },
+    "facing=south,has_book=true": { "model": "irregularitems:block/schematicwriterblock_schematic", "y": 180 },
+    "facing=west,has_book=true": { "model": "irregularitems:block/schematicwriterblock_schematic", "y": 270 },
+    "facing=east,has_book=true": { "model": "irregularitems:block/schematicwriterblock_schematic", "y": 90 },
+    "facing=up,has_book=false": { "model": "irregularitems:block/schematicwriterblock" },
+    "facing=down,has_book=false": { "model": "irregularitems:block/schematicwriterblock" },
+    "facing=up,has_book=true": { "model": "irregularitems:block/schematicwriterblock_schematic" },
+    "facing=down,has_book=true": { "model": "irregularitems:block/schematicwriterblock_schematic" }
+  }
+}

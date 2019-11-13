@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,powered=false": { "model": "irregularitems:block/basicquantumgenerator" },
+    "facing=south,powered=false": { "model": "irregularitems:block/basicquantumgenerator", "y": 180 },
+    "facing=west,powered=false": { "model": "irregularitems:block/basicquantumgenerator", "y": 270 },
+    "facing=east,powered=false": { "model": "irregularitems:block/basicquantumgenerator", "y": 90 },
+    "facing=up,powered=false": { "model": "irregularitems:block/basicquantumgenerator", "x": -90 },
+    "facing=down,powered=false": { "model": "irregularitems:block/basicquantumgenerator", "x": 90 },
+    "facing=north,powered=true": { "model": "irregularitems:block/basicquantumgenerator_powered" },
+    "facing=south,powered=true": { "model": "irregularitems:block/basicquantumgenerator_powered", "y": 180 },
+    "facing=west,powered=true": { "model": "irregularitems:block/basicquantumgenerator_powered", "y": 270 },
+    "facing=east,powered=true": { "model": "irregularitems:block/basicquantumgenerator_powered", "y": 90 },
+    "facing=up,powered=true": { "model": "irregularitems:block/basicquantumgenerator_powered", "x": -90 },
+    "facing=down,powered=true": { "model": "irregularitems:block/basicquantumgenerator_powered", "x": 90 }
+  }
+}

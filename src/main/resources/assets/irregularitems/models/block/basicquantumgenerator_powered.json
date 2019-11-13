@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "irregularitems:block/basicquantumgenerator",
+    "down": "irregularitems:block/basicquantumgenerator",
+    "up": "irregularitems:block/basicquantumgenerator",
+    "west": "irregularitems:block/basicquantumgenerator",
+    "east": "irregularitems:block/basicquantumgenerator",
+    "north": "irregularitems:block/basicquantumgenerator_powered",
+    "south": "irregularitems:block/basicquantumgenerator"
+  }
+}

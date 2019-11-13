@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "irregularitems:block/combustiongenerator",
+    "down": "irregularitems:block/combustiongenerator",
+    "up": "irregularitems:block/combustiongenerator",
+    "west": "irregularitems:block/combustiongenerator",
+    "east": "irregularitems:block/combustiongenerator",
+    "north": "irregularitems:block/combustiongenerator_front",
+    "south": "irregularitems:block/combustiongenerator"
+  }
+}

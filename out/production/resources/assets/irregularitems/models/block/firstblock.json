@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "irregularitems:block/firstblock",
+    "down": "irregularitems:block/firstblock",
+    "up": "irregularitems:block/firstblock",
+    "west": "irregularitems:block/firstblock",
+    "east": "irregularitems:block/firstblock",
+    "north": "irregularitems:block/firstblock_front",
+    "south": "irregularitems:block/firstblock"
+  }
+}

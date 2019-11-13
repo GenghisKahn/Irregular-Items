@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "bBr",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "irregularitems:ezbuilderitem"
+    },
+    "r": {
+      "tag": "forge:dyes/red"
+    },
+    "b": {
+      "tag": "forge:dyes/blue"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "irregularitems:ezbuilderupgradeitem"
+  }
+}

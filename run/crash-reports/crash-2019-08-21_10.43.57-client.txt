@@ -1,0 +1,124 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 8/21/19 10:43 AM
+Description: mouseClicked event handler
+
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at com.genghiskahn1992.irregularitems.containers.SchematicWriterScreen.scrollRight(SchematicWriterScreen.java:71) ~[main/:?] {}
+	at com.genghiskahn1992.irregularitems.containers.SchematicWriterScreen.lambda$drawGuiContainerForegroundLayer$1(SchematicWriterScreen.java:60) ~[main/:?] {}
+	at net.minecraft.client.gui.widget.button.Button.onPress(Button.java:16) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.button.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.Widget.mouseClicked(Widget.java:136) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.mouseClicked(ContainerScreen.java:293) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$mouseButtonCallback$0(MouseHelper.java:86) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:441) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.mouseButtonCallback(MouseHelper.java:84) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.1.jar:build 12] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.1.jar:build 12] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3050) ~[lwjgl-glfw-3.2.1.jar:build 12] {}
+	at net.minecraft.client.MainWindow.func_216528_l(MainWindow.java:416) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.update(MainWindow.java:274) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_213227_b(Minecraft.java:977) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:941) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:384) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:127) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-2.1.4.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50) [modlauncher-2.1.4.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68) [modlauncher-2.1.4.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:77) [modlauncher-2.1.4.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:62) [modlauncher-2.1.4.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.2-26.0.63_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.genghiskahn1992.irregularitems.containers.SchematicWriterScreen.scrollRight(SchematicWriterScreen.java:71)
+	at com.genghiskahn1992.irregularitems.containers.SchematicWriterScreen.lambda$drawGuiContainerForegroundLayer$1(SchematicWriterScreen.java:60)
+	at net.minecraft.client.gui.widget.button.Button.onPress(Button.java:16)
+	at net.minecraft.client.gui.widget.button.AbstractButton.onClick(AbstractButton.java:17)
+	at net.minecraft.client.gui.widget.Widget.mouseClicked(Widget.java:136)
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28)
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.mouseClicked(ContainerScreen.java:293)
+	at net.minecraft.client.MouseHelper.lambda$mouseButtonCallback$0(MouseHelper.java:86)
+
+-- Affected screen --
+Details:
+	Screen name: com.genghiskahn1992.irregularitems.containers.SchematicWriterScreen
+Stacktrace:
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:441)
+	at net.minecraft.client.MouseHelper.mouseButtonCallback(MouseHelper.java:84)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3050)
+	at net.minecraft.client.MainWindow.func_216528_l(MainWindow.java:416)
+	at net.minecraft.client.MainWindow.update(MainWindow.java:274)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [ClientPlayerEntity['Dev'/1, l='MpServer', x=589.33, y=56.00, z=37.05]]
+	Chunk stats: MultiplayerChunkCache: 729, 441
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: {}
+	Level spawn location: World: (8,55,8), Chunk: (at 8,3,8 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 219801 game time, 1201 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: true), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.fillCrashReport(ClientWorld.java:424)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:1818)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:400)
+	at net.minecraft.client.main.Main.main(Main.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:77)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:62)
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 938977584 bytes (895 MB) / 1821900800 bytes (1737 MB) up to 3790077952 bytes (3614 MB)
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	FML: New FML!
+	Loaded coremods (and transformers): Nothing
+	Launched Version: MOD_DEV
+	LWJGL: 3.2.1 build 12
+	OpenGL: Intel(R) UHD Graphics 630 GL version 4.5.0 - Build 24.20.100.6292, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz

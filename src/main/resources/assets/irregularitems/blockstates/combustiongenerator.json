@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,powered=false": { "model": "irregularitems:block/combustiongenerator" },
+    "facing=south,powered=false": { "model": "irregularitems:block/combustiongenerator", "y": 180 },
+    "facing=west,powered=false": { "model": "irregularitems:block/combustiongenerator", "y": 270 },
+    "facing=east,powered=false": { "model": "irregularitems:block/combustiongenerator", "y": 90 },
+    "facing=up,powered=false": { "model": "irregularitems:block/combustiongenerator", "x": -90 },
+    "facing=down,powered=false": { "model": "irregularitems:block/combustiongenerator", "x": 90 },
+    "facing=north,powered=true": { "model": "irregularitems:block/combustiongenerator_powered" },
+    "facing=south,powered=true": { "model": "irregularitems:block/combustiongenerator_powered", "y": 180 },
+    "facing=west,powered=true": { "model": "irregularitems:block/combustiongenerator_powered", "y": 270 },
+    "facing=east,powered=true": { "model": "irregularitems:block/combustiongenerator_powered", "y": 90 },
+    "facing=up,powered=true": { "model": "irregularitems:block/combustiongenerator_powered", "x": -90 },
+    "facing=down,powered=true": { "model": "irregularitems:block/combustiongenerator_powered", "x": 90 }
+  }
+}

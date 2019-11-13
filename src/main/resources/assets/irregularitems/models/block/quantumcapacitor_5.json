@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "irregularitems:block/quantumcapacitor_5"
+  }
+}
